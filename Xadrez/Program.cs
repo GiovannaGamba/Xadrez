@@ -1,7 +1,14 @@
-﻿internal class Program
+﻿using System;
+
+using Tabuleiro;
+
+class Program
 {
-    private static void Main(string[] args)
+    static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Posicao p;
+
+        p = new Posicao(3 ,4);
+        Console.WriteLine("Posição " + p);
     }
 }
