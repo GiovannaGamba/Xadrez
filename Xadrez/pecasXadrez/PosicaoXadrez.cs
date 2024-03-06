@@ -1,6 +1,6 @@
 ﻿using Tabuleiros;
 
-namespace Xadrez;
+namespace pecasXadrez;
 class PosicaoXadrez
 {
     public char Coluna { get; set; }
